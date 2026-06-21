@@ -1,27 +1,41 @@
-# Matsuri Academy — EXPLORÁVEL V2
+# Matsuri Academy — Isometric RPG V1
 
-Versão refeita para garantir mudança visível.
+Base nova em **Vite + TypeScript + Phaser 3**, inspirada em jogos isométricos/MMO-lite.
 
-## O que muda visualmente
+## Inclui
 
-- faixa no topo: **EXPLORÁVEL V2 · avatar + mapa + sifus**
-- jogador/aluna visível e controlável no mapa
-- Sifus/NPCs visuais no ambiente
-- mapa 2D explorável com salão, pátio, biblioteca, jardim, bambuzal e portão
-- missões que pedem caminhar até NPC/área e apertar E
+- mapa isométrico
+- personagem/aluna jogável
+- clique para caminhar
+- WASD / setas para mover
+- câmera seguindo o personagem
+- Sifus/NPCs anime/chibi procedurais
+- áreas interativas
+- missões por NPC/área
+- XP, moedas, trilha e vocabulário vivo
+- partículas/ambiente isométrico procedural
+- deploy correto para GitHub Pages via Actions
 
-## Controles
+## Rodar localmente
 
-- WASD ou setas: andar
-- E: interagir
-- Mobile: botões virtuais
+```bash
+npm install
+npm run dev
+```
 
-## Deploy
+## Build
 
-Se GitHub Pages estiver em GitHub Actions, use o workflow incluído:
+```bash
+npm run build
+npm run preview
+```
+
+## GitHub Pages
+
+Este projeto usa workflow em:
 
 ```txt
 .github/workflows/deploy.yml
 ```
 
-Vá em Actions e espere **Deploy EXPLORABLE V2 to GitHub Pages** ficar verde.
+Em **Settings → Pages**, use **GitHub Actions**.
